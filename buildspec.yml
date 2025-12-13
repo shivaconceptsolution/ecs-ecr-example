@@ -11,6 +11,7 @@ phases:
       - echo Build started
       - echo Building the docker image
       - docker build -t my-test-image .
+      - docker tag my-test-image:latest 547981473986.dkr.ecr.us-east-1.amazonaws.com/my-test-image:latest
      
 
 
